@@ -89,7 +89,7 @@ W przypadku środowiska **Microsoft Native Unit Test Framework** kluczową zasad
 - umieszcza się deklaracje w plikach nagłówkowych (np. Calculator.h, Calculator.cpp)
 - tworzy się klasy o jednej odpowiedzialności
 
-# Przykład przygotowania kodu do testów jednostkowych
+## Przykład przygotowania kodu do testów jednostkowych
 
 **Calculator.h**
 

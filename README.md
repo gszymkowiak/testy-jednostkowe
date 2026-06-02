@@ -114,7 +114,7 @@ W przypadku środowiska **Microsoft Native Unit Test Framework** kluczową zasad
     }
 ```
 
-**Projekt testowy może wtedy dołączyć**
+**Dołączenie pliku nagłówkowego do projektu testów jednostkwoych**
 
 ```cpp
     #include "../Application/Calculator.h"

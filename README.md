@@ -81,13 +81,15 @@ Kod testowalny powinien być:
 
 W przypadku środowiska **Microsoft Native Unit Test Framework** kluczową zasadą jest przygotowanie kodu tak, aby był **modułowy** -  zależności muszą być odseparowane.
 
-Zasady:
+**Zasady**:
 
 - oddziela się logikę od wartstyw prezentacji
 - używa się wstrzykiwania zależności
 - unika się zmiennych globalnych i singletonów
 - umieszcza się deklaracje w plikach nagłówkowych (np. Calculator.h, Calculator.cpp)
 - tworzy się klasy o jednej odpowiedzialności
+
+**Przykład**:
 
 **Calculator.h**
 

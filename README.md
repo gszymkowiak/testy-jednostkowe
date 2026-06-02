@@ -79,7 +79,7 @@ Kod testowalny powinien być:
 
 # Jak przygotować kod do testów jednostkowych
 
-W przypadku środowiska Microsoft Native Unit Test Framework kluczową zasadą jest przygotowanie kodu tak, aby był modułowy, zależności były odseparowane.
+W przypadku środowiska **Microsoft Native Unit Test Framework** kluczową zasadą jest przygotowanie kodu tak, aby był **modułowy** -  zależności muszą być odseparowane.
 
 - Oddziela się logikę od wartstyw prezentacji
 - Tworzy się małe funkcje

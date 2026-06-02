@@ -77,6 +77,17 @@ Kod testowalny powinien być:
 - deterministyczny,
 - prosty do automatycznego uruchamiania.
 
+# Jak przygotować kod do testów jednostkowych
+
+W przypadku środowiska Microsoft Native Unit Test Framework kluczową zasadą jest przygotowanie kodu tak, aby był modułowy, zależności były odseparowane.
+
+- Oddziela się logikę od wartstyw prezentacji
+- Tworzy się małe funkcje
+- Używa się wstrzykiwanie zależnoći
+- Unika się zmiennych globalnych i singletonów
+- Umieszcza się deklaracje w plikach nagłówkowych
+- Tworzy się klasy o jednej odpowiedzialności
+
 ## Film - test bez biblioteki statycznej
 [![Test bez biblioteki statycznej](https://img.youtube.com/vi/OZQhOUneeGc/0.jpg)](https://www.youtube.com/watch?v=OZQhOUneeGc)
 

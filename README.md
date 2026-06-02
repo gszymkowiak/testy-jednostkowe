@@ -163,32 +163,32 @@ Microsoft Native Unit Test to framework do testów jednostkowych dla języka C++
 ## Funkcja produkcyjna
 
 ```cpp
-int Add(int a, int b)
-{
-    return a + b;
-}
+    int Add(int a, int b)
+    {
+        return a + b;
+    }
 ```
 
 ## Test jednostkowy
 
 ```cpp
-TEST_CLASS(AddTests)
-{
-public:
-
-    TEST_METHOD(Add_ReturnsCorrectResult)
+    TEST_CLASS(AddTests)
     {
-        // Arrange
-        int a = 2;
-        int b = 3;
-
-        // Act
-        int result = Add(a, b);
-
-        // Assert
-        Assert::AreEqual(5, result);
-    }
-};
+    public:
+    
+        TEST_METHOD(Add_ReturnsCorrectResult)
+        {
+            // Arrange
+            int a = 2;
+            int b = 3;
+    
+            // Act
+            int result = Add(a, b);
+    
+            // Assert
+            Assert::AreEqual(5, result);
+        }
+    };
 ```
 
 ---

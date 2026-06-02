@@ -82,11 +82,39 @@ Kod testowalny powinien być:
 W przypadku środowiska **Microsoft Native Unit Test Framework** kluczową zasadą jest przygotowanie kodu tak, aby był **modułowy** -  zależności muszą być odseparowane.
 
 - Oddziela się logikę od wartstyw prezentacji
-- Tworzy się małe funkcje
-- Używa się wstrzykiwanie zależnoći
+- Używa się wstrzykiwania zależności
 - Unika się zmiennych globalnych i singletonów
-- Umieszcza się deklaracje w plikach nagłówkowych
+- Umieszcza się deklaracje w plikach nagłówkowych (np. Calculator.h, Calculator.cpp)
 - Tworzy się klasy o jednej odpowiedzialności
+
+**Calculator.h**
+
+```cpp
+    #pragma once
+    
+    class Calculator
+    {
+    public:
+        int Add(int a, int b);
+    };
+```
+
+**Calculator.cpp**
+
+```cpp
+    #include "Calculator.h"
+    
+    int Calculator::Add(int a, int b)
+    {
+        return a + b;
+    }
+```
+
+**Projekt testowy może wtedy dołączyć**
+
+```cpp
+    #include "../Application/Calculator.h"
+```
 
 ## Film - test bez biblioteki statycznej
 [![Test bez biblioteki statycznej](https://img.youtube.com/vi/OZQhOUneeGc/0.jpg)](https://www.youtube.com/watch?v=OZQhOUneeGc)

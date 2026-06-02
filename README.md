@@ -42,20 +42,15 @@ Test wykonywany jest w izolacji od pozostałych elementów systemu w celu zweryf
 - **I - Independent** -> Testy powinny być niezależne od siebie
 - **R - Repeatable** -> Testy powinny zawsze zwracać ten sam wynik
 - **S - Self** -> Test powinien sam określać wynik PASS lub FAIL
-- **T - Timely** -> Testy powinny być tworzone możliwie wcześnie.
+- **T - Timely** -> Testy powinny być tworzone możliwie wcześnie
 
 ---
 
 # Struktura testu – AAA
 
-## Arrange
-Przygotowanie danych oraz obiektów potrzebnych do testu.
-
-## Act
-Uruchomienie testowanej funkcjonalności.
-
-## Assert
-Sprawdzenie, czy wynik jest zgodny z oczekiwaniem.
+- **Arrang**e - Przygotowanie danych oraz obiektów potrzebnych do testu.
+- **Act** - Uruchomienie testowanej funkcjonalności.
+- **Assert** - Sprawdzenie, czy wynik jest zgodny z oczekiwaniem.
 
 ---
 

@@ -38,7 +38,7 @@ Test wykonywany jest w izolacji od pozostałych elementów systemu w celu zweryf
 
 # Cechy dobrych testów – zasada FIRST
 
-- **F - Fast** -> Testy powinny działać szybko
+- **F (Fast)** - Testy powinny działać szybko
 - **I - Independent** -> Testy powinny być niezależne od siebie
 - **R - Repeatable** -> Testy powinny zawsze zwracać ten sam wynik
 - **S - Self** -> Test powinien sam określać wynik PASS lub FAIL

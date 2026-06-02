@@ -63,7 +63,7 @@ Kod testowalny powinien być:
 - deterministyczny,
 - prosty do automatycznego uruchamiania.
 
-# Jak przygotować kod do testów jednostkowych
+## Jak przygotować kod do testów jednostkowych
 
 W przypadku środowiska **Microsoft Native Unit Test Framework** kluczową zasadą jest przygotowanie kodu tak, aby był **modułowy** -  zależności muszą być odseparowane.
 

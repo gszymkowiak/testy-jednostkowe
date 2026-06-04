@@ -75,6 +75,19 @@ W przypadku środowiska **Microsoft Native Unit Test Framework** kluczową zasad
 - umieszcza się deklaracje w plikach nagłówkowych (np. Calculator.h, Calculator.cpp)
 - tworzy się klasy o jednej odpowiedzialności
 
+**Plik nagłówkowy**
+
+W pliku nagłówkowym (.h) powinny znajdować się deklaracje elementów, które mają być dostępne w innych plikach programu. Nagłówek opisuje interfejs modułu, natomiast implementacja znajduje się zwykle w pliku źródłowym (.cpp). Typowa zawartość:
+
+- strażnik nagłówka (#pragama once)
+- deklaracje klas
+- deklaracje funkcji
+- definicje struktur i typów
+- szablony (templates)
+- stałe i definicje potrzebne innym plikom
+
+**W pliku nagłówkowym nie umieszcza się dyrektywy *using namespace std;*, ponieważ wpływa ona na wszystkie pliki dołączające ten nagłówek**
+
 ## Przykład przygotowania kodu do testów jednostkowych
 
 **Calculator.h**

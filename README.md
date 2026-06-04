@@ -92,7 +92,7 @@ Typowa zawartość pliku nagłówkowego:
 
 W pliku nagłówkowym nie umieszcza się dyrektywy **using namespace std**, ponieważ ma to wpływ na wszystkie pliki dołączające ten nagłówek. Należy również mieć na uwadze, że zasadniczo w testach jednostkowych **nie testuje się pliku zawierającego main(), lecz klasy, funkcje i moduły biznesowe**.
 
-Testowanie wejścia z klawiatury
+**Testowanie wejścia z klawiatury**
 
 Dla danych przekazywanych bezpośrednio z klawiatury należy wydzielić odrębne funkcje lub metody, które wygodniej jest przetestować testami jednostkowymi.
 
@@ -100,6 +100,13 @@ Dla danych przekazywanych bezpośrednio z klawiatury należy wydzielić odrębne
     bool isAdult(int age)
     {
         return age >= 18;
+    }
+```
+
+```cpp
+    bool isInteger(double number)
+    {
+        return number == static_cast<int>(number);
     }
 ```
 

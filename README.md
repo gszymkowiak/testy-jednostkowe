@@ -83,7 +83,7 @@ Typowa zawartość pliku nagłówkowego:
 
 - strażnik nagłówka (#pragama once)
 - deklaracje pól składowych (atrybutów, właściwości)
-- deklaracje pól statycznych
+- deklaracje pól statycznych (inicjalizacja w pliku źródłowym)
 - deklaracje klas
 - deklaracje funkcji
 - definicje struktur i typów

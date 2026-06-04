@@ -118,6 +118,7 @@ Dla danych przekazywanych bezpośrednio z klawiatury należy wydzielić odrębne
         return std::floor(number) == number;
     }
 ```
+
 ## Przykład przygotowania kodu do testów jednostkowych
 
 **Calculator.h**
@@ -130,22 +131,6 @@ Dla danych przekazywanych bezpośrednio z klawiatury należy wydzielić odrębne
     public:
         int Add(int a, int b);
     };
-```
-
-```cpp
-    bool isInteger(double number)
-    {
-        return number == static_cast<int>(number);
-    }
-```
-
-```cpp
-    #include <cmath>
-    
-    bool isInteger(double number)
-    {
-        return std::floor(number) == number;
-    }
 ```
 
 **Calculator.cpp**

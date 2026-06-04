@@ -94,7 +94,7 @@ W pliku nagłówkowym nie umieszcza się dyrektywy **using namespace std**, poni
 
 **Testowanie wejścia z klawiatury**
 
-Dla danych przekazywanych bezpośrednio z klawiatury należy wydzielić odrębne funkcje lub metody, które wygodniej jest przetestować testami jednostkowymi.
+Dla danych przekazywanych bezpośrednio z klawiatury należy wydzielić odrębne funkcje lub metody, które następnie można przetestować testami jednostkowymi.
 
 ```cpp
     bool isAdult(int age)
@@ -110,6 +110,14 @@ Dla danych przekazywanych bezpośrednio z klawiatury należy wydzielić odrębne
     }
 ```
 
+```cpp
+    #include <cmath>
+    
+    bool isInteger(double number)
+    {
+        return std::floor(number) == number;
+    }
+```
 ## Przykład przygotowania kodu do testów jednostkowych
 
 **Calculator.h**

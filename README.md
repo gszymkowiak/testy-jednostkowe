@@ -82,6 +82,8 @@ W pliku nagłówkowym (.h) powinny znajdować się deklaracje elementów, które
 Typowa zawartość pliku nagłówkowego:
 
 - strażnik nagłówka (#pragama once)
+- deklaracja pól składowych (atrybutów, właściwości)
+- deklaracje pól statycznych
 - deklaracje klas
 - deklaracje funkcji
 - definicje struktur i typów

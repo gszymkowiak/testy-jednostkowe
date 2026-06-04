@@ -77,7 +77,9 @@ W przypadku środowiska **Microsoft Native Unit Test Framework** kluczową zasad
 
 **Plik nagłówkowy i plik źródłowy**
 
-W pliku nagłówkowym (.h) powinny znajdować się deklaracje elementów, które mają być dostępne w innych plikach programu. Nagłówek opisuje interfejs modułu, natomiast implementacja znajduje się zwykle w pliku źródłowym (.cpp). Typowa zawartość:
+W pliku nagłówkowym (.h) powinny znajdować się deklaracje elementów, które mają być dostępne w innych plikach programu. Nagłówek opisuje interfejs modułu, natomiast implementacja znajduje się zwykle w pliku źródłowym (.cpp).
+
+Typowa zawartość pliku nagłówkowego:
 
 - strażnik nagłówka (#pragama once)
 - deklaracje klas

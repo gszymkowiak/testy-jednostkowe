@@ -72,7 +72,7 @@ W przypadku środowiska **Microsoft Native Unit Test Framework** kluczową zasad
 - oddziela się logikę od wartstwy prezentacji
 - używa się wstrzykiwania zależności
 - unika się zmiennych globalnych i singletonów
-- umieszcza się deklaracje w plikach nagłówkowych (np. Calculator.h, Calculator.cpp)
+- umieszcza się deklaracje w plikach nagłówkowych (**np. Calculator.h, Calculator.cpp**)
 - tworzy się klasy o jednej odpowiedzialności
 
 **Plik nagłówkowy i plik źródłowy**

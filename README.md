@@ -88,7 +88,7 @@ Typowa zawartość pliku nagłówkowego:
 - szablony (templates)
 - stałe i definicje potrzebne innym plikom
 
-**W pliku nagłówkowym nie umieszcza się dyrektywy *using namespace std;* - ma to wpływ na wszystkie pliki dołączające ten nagłówek**
+W pliku nagłówkowym nie umieszcza się dyrektywy **using namespace std**, ponieważ ma to wpływ na wszystkie pliki dołączające ten nagłówek.
 
 ## Przykład przygotowania kodu do testów jednostkowych
 
